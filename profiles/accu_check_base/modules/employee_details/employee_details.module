@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Employee Details feature.
+ */
+
+include_once 'employee_details.features.inc';

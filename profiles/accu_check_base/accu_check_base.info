@@ -1,0 +1,91 @@
+; Packaging information for accu_check_base
+name = "Accu-Check-base"
+description = ""
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_menu
+; Chaos tool suite
+dependencies[] = ctools
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_repeat
+dependencies[] = date_repeat_field
+; Development
+dependencies[] = profiler_builder
+dependencies[] = profiler_builder_extras
+; Distribution Management
+dependencies[] = apps
+; Fields
+dependencies[] = link
+; Migration
+dependencies[] = migrate
+; Node export
+dependencies[] = node_export
+dependencies[] = node_export_features
+; Other
+dependencies[] = entity
+dependencies[] = levelten_apps
+dependencies[] = libraries
+dependencies[] = strongarm
+; Services
+dependencies[] = services
+; Services - resources
+dependencies[] = uuid_services
+; Services - servers
+dependencies[] = rest_server
+; UUID
+dependencies[] = uuid
+; Views
+dependencies[] = views
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+dependencies[] = webform_features
+; Features
+dependencies[] = features
+dependencies[] = date_migrate_example
+dependencies[] = defaultcontent
+dependencies[] = employee_details
+dependencies[] = enterprise_rotator
+dependencies[] = enterprise_rotator_content
+dependencies[] = features_override
+dependencies[] = uuid_features
+dependencies[] = uuid_services_example
+dependencies[] = webform_fe
+

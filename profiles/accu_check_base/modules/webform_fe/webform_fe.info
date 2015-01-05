@@ -1,0 +1,17 @@
+name = webform_fe
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = webform_fe
+dependencies[] = node
+__drupal_alter_by_ref[][node][webform] = webform
+features[features_api][] = api:2
+features[node][] = webform
+features[uuid_node][] = 61550028-59fd-4429-ab6c-d83e6202d5a5
+features[uuid_node][] = 7e91f55b-f0e1-4e94-b9b0-7ed58de644fe
+features[uuid_node][] = f90c396a-6ec2-458c-88e7-c3a92f8603d5
+features[webform][] = meter_registration_warranty
+features[webform][] = webform_
+features_exclude[dependencies][features] = features
+features_exclude[dependencies][uuid_features] = uuid_features
+features_exclude[dependencies][webform] = webform
